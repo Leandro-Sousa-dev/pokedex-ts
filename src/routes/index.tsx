@@ -4,11 +4,11 @@ import { Poke } from '../pages/poke'
 
 const AppRoutes = () => (
     <>
-        <BrowserRouter basename="/">
+        <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Navigate to="/home" />} />  
-                <Route path='/home' element={<PokeList />} />
-                <Route path='/poke/:name' element={<Poke />} />
+                <Route path='/pokedex-ts' element={<Navigate to="/pokedex-ts/home" />} />  
+                <Route path='/pokedex-ts/home' element={<PokeList />} />
+                <Route path='/pokedex-ts/poke/:name' element={<Poke />} />
             </Routes>
         </BrowserRouter>
     </>
