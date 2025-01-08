@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { ThemeOption, ThemeUseStateProps} from '../../interfaces/themeContext'
+import { ThemeOption, ThemeUseStateProps} from '../../interfaces/ThemeContext'
 import { ChildrenInteface } from "../../interfaces/Generics";
 
 export const themes = {

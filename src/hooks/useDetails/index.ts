@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query'
 import { getPoke } from '../../services/getPoke'
-import { ColoursObjectType, TypesPrimaryProps } from '../../interfaces/Generics'
+import { ColoursObjectType, TypesPrimaryProps } from '../../interfaces/PokeData'
 
 const colours:ColoursObjectType = {
 	normal: '#A8A77A',

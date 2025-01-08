@@ -4,7 +4,7 @@ import { Poke } from '../pages/poke'
 
 const AppRoutes = () => (
     <>
-        <BrowserRouter basename="/react-pokedex/">
+        <BrowserRouter basename="/">
             <Routes>
                 <Route path='/' element={<Navigate to="/home" />} />  
                 <Route path='/home' element={<PokeList />} />
