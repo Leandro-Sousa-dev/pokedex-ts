@@ -257,7 +257,7 @@ Please change the parent <Route path="${I}"> to <Route path="${I==="/"?"*":`${I}
 `,mg=Me.div`
     max-width: 1200px;
     margin: 0 auto;
-`,vg=()=>{window.scroll(0,0);const{theme:r}=F.useContext(vi),{name:o}=sv(),{data:u,isLoading:s,isError:a}=dg(o);return H.jsxs(pg,{theme:r,children:[H.jsx(hg,{to:"/",children:"Home"}),H.jsxs(mg,{children:[s?H.jsx("p",{children:"LOADING..."}):H.jsx(sg,{data:u}),a&&H.jsx("p",{children:"request FAILED"})]})]})},yg=()=>H.jsx(vg,{}),gg=()=>H.jsx(H.Fragment,{children:H.jsx(Kv,{children:H.jsxs(kv,{children:[H.jsx(ws,{path:"/",element:H.jsx(b0,{})}),H.jsx(ws,{path:"/pokedex-ts/poke/:name",element:H.jsx(yg,{})})]})})}),wg=U0`
+`,vg=()=>{window.scroll(0,0);const{theme:r}=F.useContext(vi),{name:o}=sv(),{data:u,isLoading:s,isError:a}=dg(o);return H.jsxs(pg,{theme:r,children:[H.jsx(hg,{to:"/",children:"Home"}),H.jsxs(mg,{children:[s?H.jsx("p",{children:"LOADING..."}):H.jsx(sg,{data:u}),a&&H.jsx("p",{children:"request FAILED"})]})]})},yg=()=>H.jsx(vg,{}),gg=()=>H.jsx(H.Fragment,{children:H.jsx(Kv,{children:H.jsxs(kv,{children:[H.jsx(ws,{path:"/",element:H.jsx(b0,{})}),H.jsx(ws,{path:"/poke/:name",element:H.jsx(yg,{})})]})})}),wg=U0`
     * {
         margin: 0;
         padding: 0;
