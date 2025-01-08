@@ -6,7 +6,6 @@ const AppRoutes = () => (
     <>
         <BrowserRouter basename="/pokedex-ts">
             <Routes>
-                {/* <Route path='/pokedex-ts' element={<Navigate to="/pokedex-ts/home" />} />   */}
                 <Route path='/' element={<PokeList />} />
                 <Route path='/poke/:name' element={<Poke />} />
             </Routes>

@@ -1,4 +1,4 @@
-# DevQuest - Essa é a minha solução para a QUEST de react avançado.
+# DevQuest - Essa é a versão Em TypeScript QUEST de react avançado.
 
 Projeto agora em TypeScript que possíbilita mais precisão no que está sendo feito pelo código eliminando a maior parte dos problemas relacionados a erros de tipagem.
 
@@ -38,7 +38,8 @@ No projeto foram utilizadas as seguintes ferramentas:
 
 ### Links
 
-- Link da minha solução [Repositório GitHub](https://github.com/Leandro-Sousa-dev/pokedex-ts)
+- [Repositório GitHub](https://github.com/Leandro-Sousa-dev/pokedex-ts)
+- [Projeto Hospedado com GitHub Pages](https://leandro-sousa-dev.github.io/pokedex-ts/)
 
 ## Meu processo
 
@@ -97,7 +98,7 @@ Inicialize o servidor de desenvolvimento:-
 - React Query
 - CSS flex
 - PokeAPI
-
+- Gh-pages
  
 
 ## Autor
