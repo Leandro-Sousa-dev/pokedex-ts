@@ -15,7 +15,7 @@ export const DetailsPoke = () => {
 
     return (
         <Section theme={theme}>
-            <BackToHome to='/'>Home</BackToHome>
+            <BackToHome to='/pokedex-ts'>Home</BackToHome>
 
             <PokeContainer>
                 {!isLoading ? <Details data={data as PokeDetailsProps} /> : <p>LOADING...</p>}

@@ -44,7 +44,7 @@ export const ListPokemon = () => {
                     {
                         isLoading && <p>LOADING...</p> ? isError && <p>request FAILED</p> : pokes.map((poke: NameUrlProps, index) =>
                             <PokesCard key={index}>
-                                <Link to={`/poke/${poke.name}`}>
+                                <Link to={`/pokedex-ts/poke/${poke.name}`}>
                                     <PokeDiv theme={theme}>
                                         <PokesImg src={getImgUrl(poke.url)} alt={poke.name} />
                                         <h3>{poke.name.replace('-', ' ').toUpperCase()}</h3>

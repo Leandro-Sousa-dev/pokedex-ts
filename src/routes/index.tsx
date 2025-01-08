@@ -1,14 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react-router"
+import { BrowserRouter, Routes, Route, Navigate } from "react-router"
 import { PokeList } from '../pages/pokeList'
 import { Poke } from '../pages/poke'
 
 const AppRoutes = () => (
     <>
-        <BrowserRouter>
+        <BrowserRouter basename="/pokedex-ts">
             <Routes>
-                {/* <Route path='/pokedex-ts' element={<Navigate to="/pokedex-ts/home" />} />   */}
-                <Route path='/' element={<PokeList />} />
-                <Route path='/poke/:name' element={<Poke />} />
+                <Route path='/pokedex-ts' element={<Navigate to="/pokedex-ts/home" />} />  
+                <Route path='/pokedex-ts/home' element={<PokeList />} />
+                <Route path='/pokedex-ts/poke/:name' element={<Poke />} />
             </Routes>
         </BrowserRouter>
     </>
